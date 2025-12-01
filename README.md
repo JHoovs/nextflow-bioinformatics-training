@@ -50,11 +50,11 @@ nextflow run main.nf -profile conda
 ```
 ## 🐳 Run with Docker
 
-### **1. Building the container:
+### **1. Building the container:**
 ```bash
 bash env/docker/build_and_run.sh
 ```
-### **2. Run pipeline with Docker:
+### **2. Run pipeline with Docker:**
 ```bash
 nextflow run main.nf -profile docker
 ```
