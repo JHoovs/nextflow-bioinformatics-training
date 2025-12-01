@@ -35,15 +35,15 @@ Comprehensive docs explaining pipelines, configs, environments, and troubleshoot
 git clone https://github.com/<your-username>/nextflow-bioinformatics-training.git
 cd nextflow-bioinformatics-training
 ```
-### **2. Install Dependencies (Conda + Java + Nextflow)
+### 2. **Install Dependencies (Conda + Java + Nextflow)**
 ```bash
 bash env/install_nextflow.sh
 ```
-### **3. Activate Conda Environment
+### 3. **Activate Conda Environment**
 ```bash
 conda activate nextflow-training
 ```
-### **4. Run The Example Pipeline
+### 4. **Run The Example Pipeline**
 ```bash
 cd pipelines/fastqc_multiqc
 nextflow run main.nf -profile conda
