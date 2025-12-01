@@ -1,0 +1,10 @@
+name: nextflow-training
+channels:
+  - bioconda
+  - conda-forge
+dependencies:
+  - python=3.10
+  - nextflow
+  - fastqc
+  - multiqc
+  - openjdk=17
